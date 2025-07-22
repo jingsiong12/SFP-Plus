@@ -2,6 +2,7 @@
 age = {'Ali': 30, 'Abu': 80, 'Akau': 10}
 print(age)
 print(age['Ali'])
-age ('Abu'[40])
+age['Abu'] = 40
+del age['Akau']
 
-
+print(age)
